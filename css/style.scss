@@ -13,6 +13,7 @@
 $yellow:#eacf4f;
 $white:#fff;
 $black:#000;
+$pink: rgb(255, 43, 220);
 $light-color:#aaa;
 $border:.2rem solid rgba(255,255,255,.3);
 
@@ -108,7 +109,7 @@ section{
       color:$white;
 
       &:hover{
-         color:$yellow;
+         color:$pink;
       }
    }
 
@@ -119,14 +120,14 @@ section{
    .navbar{
 
       a{
-         color:$white;
+         color:$pink;
          font-size: 2rem;
          margin:0 2rem;
 
          &:hover{
             text-decoration: underline;
             text-underline-offset: 1rem;
-            color:$yellow;
+            color:$black;
          }
       }
 
